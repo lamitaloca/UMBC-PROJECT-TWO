@@ -22,7 +22,7 @@ answer = input(" Please enter 'A' - 'C': ")
 # Print choice based on answer
 if(answer == 'A'):
   
- #Show Janitor's story 
+ #Show Janitor's story   
 
     
   print()
