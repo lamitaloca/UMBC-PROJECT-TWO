@@ -35,19 +35,19 @@ if(answer == 'A'):
   print()
   answer = input( "Please select option '1' - '3': ")
   print()
-if answer == '1' or answer == '2':
+ if(answer == '1' or answer == '2'):
   #Show user fail option
   print("You searched and searched but never found the broom.")
   print("As a result, you were fired from the company.")
   print(" ~ The End ~")
-if answer == '3':
+  if(answer == '3'):
   #Show user successful option
   print("After searching the whole building, you find the magic broom in the utility closet.")
   print("The janitor is happy and gives you a free house cleaning.")
   print()
   print(" ~ The End ~")
 
-if(answer == 'B'):
+  elif(answer == 'B'):
   
  #Show Chef's story 
   print()
